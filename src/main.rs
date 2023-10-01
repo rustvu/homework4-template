@@ -34,7 +34,12 @@ impl MarkovModel {
     /// The generated text (including the seed part) is returned as a single 
     /// string, with words separated by space characters.
     fn generate(&self, seed: &str, max_word_count: i32) -> String {
-        TODO: implement this function
+        // TODO: implement this function
+        // Hint: you can pick a random element from a vec or slice using the
+        // `choose` method:
+        // let mut rng = rand::thread_rng();
+        // let v = vec![1,2,3,4];
+        // let x = v.choose(&mut rng).unwrap();
     }
 }
 
