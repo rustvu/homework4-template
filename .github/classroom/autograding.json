@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test_train",
+      "setup": "",
+      "run": "cargo test test_train",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 60
+    },
+    {
+      "name": "test_generate",
+      "setup": "",
+      "run": "cargo test test_generate",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
